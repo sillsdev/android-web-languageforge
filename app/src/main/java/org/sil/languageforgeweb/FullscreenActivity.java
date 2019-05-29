@@ -125,6 +125,10 @@ public class FullscreenActivity extends AppCompatActivity {
 
         view.getSettings().setJavaScriptEnabled(true);
         view.getSettings().setAppCacheEnabled(true);
+        view.getSettings().setDomStorageEnabled(true);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            view.setWebContentsDebuggingEnabled(true);
+        }
 
     }
 
