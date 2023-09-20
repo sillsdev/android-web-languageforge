@@ -1,0 +1,56 @@
+{
+  "packageId": "org.languageforge.twa",
+  "host": "languageforge.org",
+  "name": "Language Forge",
+  "launcherName": "Lang Forge",
+  "display": "standalone",
+  "themeColor": "#0A2440",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#104060",
+  "enableNotifications": true,
+  "startUrl": "/app/projects",
+  "iconUrl": "https://languageforge.org/appIcons/lf-logo-circle-512-xxxxxhdpi.png",
+  "maskableIconUrl": "https://languageforge.org/appIcons/maskable_icon.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/Users/chris/src/android-web-languageforge/keys/androidKeys.jks",
+    "alias": "chrishirt.sil"
+  },
+  "appVersionName": "6",
+  "appVersionCode": 6,
+  "shortcuts": [
+    {
+      "name": "List Projects",
+      "shortName": "Projects",
+      "url": "https://languageforge.org/app/projects",
+      "chosenIconUrl": "https://languageforge.org/appIcons/lf-logo-circle-192-xxxhdpi.png"
+    },
+    {
+      "name": "User Profile",
+      "shortName": "User Profile",
+      "url": "https://languageforge.org/app/userprofile",
+      "chosenIconUrl": "https://languageforge.org/appIcons/lf-logo-circle-192-xxxhdpi.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://languageforge.org/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://languageforge.org/",
+  "minSdkVersion": 19,
+  "orientation": "portrait-primary",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "6"
+}

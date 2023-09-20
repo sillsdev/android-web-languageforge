@@ -10,5 +10,5 @@ Go through its prompts for configuring the JDK and Android Studio.
 
 `bubblewrap init --manifest https://languageforge.org/manifest.json`
 
-3. Open the project in Android Studio.
+3. Open the project in the latest Android Studio.
 "Build > Generate Signed Bundle / APK ..." and create a signed Bundle or APK. The keystore should be the same one as the one whose SHA256 fingerprints are in the languageforge.org/.well-known/assetlinks.json file.

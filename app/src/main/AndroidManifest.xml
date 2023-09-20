@@ -19,8 +19,7 @@
      to an Activity by ".MyActivity" instead of the full name. If more Activities are added to the
      application, the package attribute will need to reflect the correct path in order to use
      the abbreviated format. -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.sil.languageforgeweb">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     
         <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
@@ -81,6 +80,10 @@
                 android:resource="@color/colorPrimary" />
 
             <meta-data
+                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
+                android:resource="@color/colorPrimaryDark" />
+
+            <meta-data
                 android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
                 android:resource="@color/navigationColor" />
 
@@ -115,9 +118,6 @@
 
             
 
-            
-            <meta-data android:name="android.support.customtabs.trusted.DISPLAY_MODE"
-                android:value="immersive" />
             
 
             <meta-data android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
